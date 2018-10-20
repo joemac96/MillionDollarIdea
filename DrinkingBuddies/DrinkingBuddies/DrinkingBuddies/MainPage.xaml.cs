@@ -13,5 +13,10 @@ namespace DrinkingBuddies
 		{
 			InitializeComponent();
 		}
+
+		private void OnClick(object sender, EventArgs e)
+		{
+			friendsLabel.IsVisible = true;
+		}
 	}
 }
